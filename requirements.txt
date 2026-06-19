@@ -1,0 +1,11 @@
+speech_recognition
+pyttsx3
+numpy
+psutil
+keyboard
+screen_brightness_control
+pywhatkit
+sounddevice
+scipy
+pvrecorder
+ollama
