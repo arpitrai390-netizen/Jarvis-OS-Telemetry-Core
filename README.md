@@ -15,3 +15,32 @@ An asynchronous, voice-activated desktop assistant built with Python. This proje
 - **Robust Exception Handling:** Isolated all local AI network operations and hardware calls in `try-except` blocks to maintain runtime stability.
 
 *Note: Developed with algorithmic assistance from Gemini for structural optimization and UI threading design.*
+
+## 🚀 How to Setup and Run
+
+Follow these instructions to deploy and execute the Jarvis Telemetry Core on your local Windows environment.
+
+### 1. Prerequisites & AI Setup
+Make sure you have Python 3.10+ installed on your machine.
+To utilize the local neural network matrix feature:
+1. Download and install [Ollama](https://ollama.com).
+2. Open your terminal and pull down the lightweight Llama model:
+   ```bash
+   ollama run llama3.2:1b
+   ```
+
+### 2. Installation
+Clone this repository to your local directory and install all required hardware and software dependencies:
+```bash
+git clone https://github.com
+cd Jarvis-OS-Telemetry-Core
+pip install -r requirements.txt
+```
+
+### 3. Execution
+Launch the primary operator dashboard core:
+```bash
+python main.py
+```
+
+
